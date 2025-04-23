@@ -1,150 +1,74 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Great+Vibes&display=swap');
-
 body {
-    font-family: 'Oswald', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #fff0f5;
-    color: #2c003e;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #1a1a1a;
+  color: #f5f5f5;
+  text-align: center;
 }
 
 header {
-    background: linear-gradient(to right, #6a0dad, #ff69b4);
-    color: white;
+  background-color: #8b0000;
+  padding: 30px 20px;
 }
 
-.nav-img {
-    width: 120px;
-    height: auto;
+.logo {
+  width: 100px;
+  margin-bottom: 10px;
 }
 
-.nav-link {
-    font-weight: bold;
-    color: white;
-    transition: color 0.3s;
+h1 {
+  margin: 10px 0 5px;
+  font-size: 3rem;
 }
 
-.nav-link:hover {
-    color: #ffd700;
+p {
+  font-size: 1.2rem;
+  margin: 0 10px;
 }
 
-.menu-acessibilidade button {
-    margin-left: 10px;
+.galeria {
+  padding: 40px 20px;
+  background-color: #222;
 }
 
-/* Botões */
-.btn-primary {
-    background-color: #ff1493;
-    border: none;
+.galeria h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
 }
 
-.btn-primary:hover {
-    background-color: #ff69b4;
+.fotos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
 
-.btn-outline-danger {
-    border-color: #dc143c;
-    color: #dc143c;
+.fotos img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  border: 3px solid #ffcc00;
+  transition: transform 0.3s ease;
 }
 
-.btn-outline-danger:hover {
-    background-color: #dc143c;
-    color: white;
+.fotos img:hover {
+  transform: scale(1.1);
 }
 
-.btn-success {
-    background-color: #1db954;
-    border: none;
+.sobre {
+  background-color: #333;
+  padding: 40px 20px;
 }
 
-.btn-success:hover {
-    background-color: #1aa34a;
+.sobre h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
 }
 
-/* Seção de início */
-.inicio-fundo {
-    background: url('img/fundo-palco.jpg') no-repeat center center;
-    background-size: cover;
-    padding: 80px 20px;
-    border-radius: 20px;
-}
-
-.img-inicio {
-    max-width: 400px;
-    border-radius: 20px;
-}
-
-/* Seção Sobre */
-.secao-tropicalia {
-    background: linear-gradient(to bottom, #fce4ec, #fff0f5);
-    border-radius: 15px;
-    padding: 40px;
-}
-
-/* Galeria */
-.fundo-galeria {
-    background-color: #f9e6ff;
-    padding: 30px;
-    border-radius: 20px;
-}
-
-img.rounded-5 {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
-}
-
-img.rounded-5:hover {
-    transform: scale(1.05);
-}
-
-/* Formulário */
-.formulario {
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(106, 13, 173, 0.3);
-    padding: 30px;
-}
-
-label {
-    font-weight: bold;
-}
-
-input, textarea {
-    border-radius: 10px;
-    border: 1px solid #ccc;
-    padding: 10px;
-}
-
-/* Rodapé */
 footer {
-    background-color: #6a0dad;
-    color: white;
-}
-
-footer i {
-    margin: 0 10px;
-    font-size: 1.5rem;
-}
-
-/* Acessibilidade */
-.menu-acessibilidade {
-    display: flex;
-    align-items: center;
-}
-
-/* Responsividade */
-@media (max-width: 768px) {
-    .inicio-fundo {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .img-inicio {
-        margin-top: 30px;
-    }
-
-    .col-5, .col-4 {
-        width: 100%;
-        text-align: center;
-    }
+  background-color: #000;
+  color: #ccc;
+  padding: 20px;
+  font-size: 0.9rem;
 }
